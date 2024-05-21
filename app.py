@@ -68,7 +68,7 @@ with st.container():
         st.subheader("Data Science Intern - Oeson Global Training and Internship Program")
         st.write(
             """
-            Position starts in July 2024
+            Position starts in May 2024
             """
         )
 
@@ -77,7 +77,7 @@ with st.container():
         st.subheader("Branding Strategy and Business Analytics Externship - Beats by Dre")
         st.write(
             """
-            Position starts in August 2024
+            Position starts in July 2024
             """
         )
 
