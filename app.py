@@ -13,7 +13,7 @@ work_exp_image = Image.open("images/work_exp_new_pic.png")
 projects_image = Image.open("images/projects_picture.png")
 leadership_and_volunteer_image = Image.open("images/lead_and_vol_pic.png")
 sports_image = Image.open("images/sports_pic.png")
-free_resources = Image.open("images/freelearning.png")
+free_resources_image = Image.open("images/free_learning.png")
 
 
 # -- Using our own local CSS file for styling
@@ -257,7 +257,7 @@ with st.container():
         )
         st.write("Feel free to share this with your friends and reach out if you have any questions. Happy to help!")
     with right_column:
-        st.image(free_resources, width=650)
+        st.image(free_resources_image, width=650)
 
 # -- Contact form
 with st.container():
