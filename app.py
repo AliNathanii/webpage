@@ -28,7 +28,7 @@ local_css("style/style.css")
 # -- Header section
 with st.container(): # adding container is optional. Makes the code look clean.
     st.title("Hi, I am Ali! :wave:")
-    st.subheader("A rising junior majoring in CS and Data science, passionate about Software Engineering with interest in AI/ML :desktop_computer: and Product Management 📈 ")
+    st.subheader("A rising junior majoring in CS and Data science, passionate about Software Engineering with interest in AI/ML :desktop_computer: ")
 
 
 # -- About me section
@@ -248,8 +248,8 @@ with st.container():
              [Calculus 1](https://drive.google.com/drive/folders/1-4W2LOmjj885Tde8WldtKhivBu6sy4u_?usp=drive_link)\n
              [Calculus 2](https://drive.google.com/drive/folders/1-7D9We-LyqCwhXTMa_F7GJmKloXeO7pp?usp=drive_link)\n
              [Foundations of/Discrete Mathematics](https://drive.google.com/drive/folders/1-5J2QPnsjuWvpI440LUaPpXsb-iDM10x?usp=drive_link) \n
-             Combinatorics - coming soon!\n
-             Linear Algebra - coming soon!\n
+             [Combinatorics and Graph Theory](https://drive.google.com/drive/u/0/folders/1-NtVW_hWD6-zjw9CTj6p5Qa7N7Abo0QJ)\n
+             [Linear Algebra](https://drive.google.com/drive/u/0/folders/1-Jc8573qS5SeTpkxlBK3Txykrrc4SuJj)\n
             """
         )
         st.write("Feel free to share this with your friends and reach out if you have any questions. Happy to help!")
@@ -308,10 +308,20 @@ footer_placeholder.markdown(footer, unsafe_allow_html=True)
 
 
 
-# -- Last edited 07/06/2024
+# -- Last edited 01/01/2025
+# Changes made: Added LA and Combinatorics notes hyperklinks
+
+# To run this app on your device to see the changes etc: (assuming streamlit is downloaded and venv is not being used or activated)
+# 1. run the command: streamlit run app.py in address
+# or the command: streamlit run /Users/alimuhammad/Desktop/Personal Projects Master/Personal Projects/webpage/app.py
+
+# if venv is being used ie activated:
+# 1. --download or setup and activate a virtual env, download streamlit on that and then run!
+# * but streamlit globally downloaded so we are good to go with the above one at this point!
+# * without the virt env, use python3 -m pip install <package name> to download something in your mac terminal
 
 # Instructions on deploying this webapp:
-# 1. git add "name of the file".py
+# 1. git add "name of the file".py ie app.py
 # 2. git commit -m "message for this commit, the changes that you made"
 # 3. git push heroku master
 # *4. heroku ps:scale web=1 to make sure you stay on the free tier V.IMP
