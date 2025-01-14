@@ -299,7 +299,7 @@ footer = """
     }
     </style>
     <div class="footer">
-        <p>&copy; 2024 Ali-Muhammad Nathani. All rights reserved.</p>
+        <p>&copy; 2025 Ali-Muhammad Nathani. All rights reserved.</p>
     </div>
     """
 
@@ -308,8 +308,8 @@ footer_placeholder.markdown(footer, unsafe_allow_html=True)
 
 
 
-# -- Last edited 01/01/2025
-# Changes made: Added LA and Combinatorics notes hyperklinks
+# -- Last edited 12/01/2025
+# Changes made: Added LA and Combinatorics notes hyperklinks and all rights reserved changed!
 
 # To run this app on your device to see the changes etc: (assuming streamlit is downloaded and venv is not being used or activated)
 # 1. run the command: streamlit run app.py in address
