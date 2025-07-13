@@ -2,13 +2,13 @@ import streamlit as st
 from PIL import Image
 
 import sys
-sys.path.append(r'C:\Users\alimu\Desktop\webpage\PIL')
+# sys.path.append(r'C:\Users\alimu\Desktop\webpage\PIL') -- switched to macbook
 
 # -- page configuration
 st.set_page_config(page_title="Ali Nathani", page_icon=":tada:", layout="wide")
 
 
-about_me_image = Image.open("images/personal-website-pic.DNG")
+about_me_image = Image.open("images/personal-website-pic.png")
 work_exp_image = Image.open("images/work_exp_new_pic.png")
 projects_image = Image.open("images/projects_picture.png")
 leadership_and_volunteer_image = Image.open("images/lead_and_vol_pic.png")
