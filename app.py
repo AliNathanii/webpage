@@ -5,10 +5,10 @@ import sys
 sys.path.append(r'C:\Users\alimu\Desktop\webpage\PIL')
 
 # -- page configuration
-st.set_page_config(page_title="Hello from Ali!", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Ali Nathani", page_icon=":tada:", layout="wide")
 
 
-about_me_image = Image.open("images/about_me_picture.png")
+about_me_image = Image.open("images/personal-website-pic.DNG")
 work_exp_image = Image.open("images/work_exp_new_pic.png")
 projects_image = Image.open("images/projects_picture.png")
 leadership_and_volunteer_image = Image.open("images/lead_and_vol_pic.png")
@@ -28,7 +28,7 @@ local_css("style/style.css")
 # -- Header section
 with st.container(): # adding container is optional. Makes the code look clean.
     st.title("Hi, I am Ali! :wave:")
-    st.subheader("A rising junior majoring in CS and Data science, passionate about Software Engineering with interest in AI/ML :desktop_computer: ")
+    st.subheader("A senior majoring in CS and Data science, passionate about Software Engineering with interest in AI/ML :desktop_computer: ")
 
 
 # -- About me section
@@ -66,10 +66,18 @@ with st.container():
     with image_column:
         st.image(work_exp_image)
     with text_column:
-        st.subheader("Data Science Intern - Oeson Global Training and Internship Program")
+        st.subheader("Software Engineer Inter - CVS Health")
         st.write(
             """
-            Position starts in May 2024
+            •	Developed and deployed in production Git-Ops driven automation tools in Python and Kubernetes, optimizing Google Cloud Platform to support scalable compute resources for over 13,000 engineers across CVS Health.
+            •	Led a team of undergraduate and graduate interns to first place in CVS Health’s internal innovation challenge by serving as a liaison between business analysts and engineers, effectively bridging technical and business objectives to solve a complex integration problem.
+            •	Built and deployed a python powered bot that closed stale PRs also allowed customers to parameterize time duration of open PRs, add special tags that bot would want to ignore etc, helping over 7,000 engineers save hundreds of hours.
+            •	Built and deployed a bot that automatically approved trivial PRs while allowing customers to prefine trivial as it fits their requirements and expectations, ended up saving hundreds of hours to over 10,000 customers.
+            •	Engineered automation workflows using Github Actions and Go-lang for managing GitHub pull requests that directly improved code review efficiency for 70+ engineering teams.
+            •	Leveraged Kubernetes ecosystem tools like Helm and ArgoCD to build reproducible infrastructure environments, reducing onboarding time for engineering team and minimizing infrastructure drift.
+            •	Built infrastructure scripts for internal developer platforms to streamline deployment and CI/CD process, reducing manual provision time by over 50%.
+            •	Collaborated cross-functionally with DevOps and Security teams to integrate role-based access control and compliance checks into GitHub PR pipelines, ensuring enterprise-grade governance at scale.
+
             """
         )
 
@@ -78,7 +86,9 @@ with st.container():
         st.subheader("Branding Strategy and Business Analytics Externship - Beats by Dre")
         st.write(
             """
-            Position starts in July 2024
+            •	Executed comprehensive consumer research using Python, NumPy, and Pandas, with a focus on hot encoding qualitative data to quantitative data using scikit-learn and advanced participant engagement techniques.
+            •	Collaborated with branding and strategy teams to design a GenZ-focused approach, leveraging consumer trends data insights to increase engagement and drive targeted product improvements.
+
             """
         )
 
@@ -90,7 +100,10 @@ with st.container():
         st.subheader("Engineering Intern - UL Solutions")
         st.write(
             """
-            Used SPEAG DASY8 to measure Specific Absorption Rate values for different electronic devices and analyzed all the data to find what devices were to be considered flawed.
+            •	Achieved a 50% reduction in testing time using SPEAG DASY8, enhancing the precision of wireless device Specific Absorption Rate (SAR) analysis.
+            •	Cultivated cross-functional collaborations, driving project success while mentoring 4 incoming interns and new hires, fostering a collaborative and supportive work environment.
+            •	Led the in-depth analysis of over 50 wireless devices, generating detailed SAR reports to ensure compliance and safety standards.
+            •	Collaborated with a team of 25+ engineers to optimize laboratory testing processes, resulting in a 30% increase in efficiency.
             """
         )
 
@@ -277,7 +290,7 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.subheader("[LinkedIn](https://www.linkedin.com/in/ali-muhammadnathani/) | [GitHub](https://github.com/AliNathanii) | [X](https://twitter.com/AliNathanii)")
-        st.write("💡 Fun fact: All pictures on this site, except my own, were generated by the DALL-E 3 model. Gotta love technology!")
+        st.write("💡 Fun fact: All pictures on this site, except my own, were generated by the DALL-E 3 model!")
 
 
 # -- Bottom Footer All rights Reserved
