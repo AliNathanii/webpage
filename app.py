@@ -66,17 +66,17 @@ with st.container():
     with image_column:
         st.image(work_exp_image)
     with text_column:
-        st.subheader("Software Engineer Inter - CVS Health")
+        st.subheader("Software Engineer Intern - CVS Health")
         st.write(
             """
-            •	Developed and deployed in production Git-Ops driven automation tools in Python and Kubernetes, optimizing Google Cloud Platform to support scalable compute resources for over 13,000 engineers across CVS Health.
-            •	Led a team of undergraduate and graduate interns to first place in CVS Health’s internal innovation challenge by serving as a liaison between business analysts and engineers, effectively bridging technical and business objectives to solve a complex integration problem.
-            •	Built and deployed a python powered bot that closed stale PRs also allowed customers to parameterize time duration of open PRs, add special tags that bot would want to ignore etc, helping over 7,000 engineers save hundreds of hours.
-            •	Built and deployed a bot that automatically approved trivial PRs while allowing customers to prefine trivial as it fits their requirements and expectations, ended up saving hundreds of hours to over 10,000 customers.
-            •	Engineered automation workflows using Github Actions and Go-lang for managing GitHub pull requests that directly improved code review efficiency for 70+ engineering teams.
-            •	Leveraged Kubernetes ecosystem tools like Helm and ArgoCD to build reproducible infrastructure environments, reducing onboarding time for engineering team and minimizing infrastructure drift.
-            •	Built infrastructure scripts for internal developer platforms to streamline deployment and CI/CD process, reducing manual provision time by over 50%.
-            •	Collaborated cross-functionally with DevOps and Security teams to integrate role-based access control and compliance checks into GitHub PR pipelines, ensuring enterprise-grade governance at scale.
+            •	Developed and deployed in production Git-Ops driven automation tools in Python and Kubernetes, optimizing Google Cloud Platform to support scalable compute resources for over 13,000 engineers across CVS Health.\n
+            •	Led a team of undergraduate and graduate interns to first place in CVS Health’s internal innovation challenge by serving as a liaison between business analysts and engineers, effectively bridging technical and business objectives to solve a complex integration problem.\n
+            •	Built and deployed a python powered bot that closed stale PRs also allowed customers to parameterize time duration of open PRs, add special tags that bot would want to ignore etc, helping over 7,000 engineers save hundreds of hours.\n
+            •	Built and deployed a bot that automatically approved trivial PRs while allowing customers to prefine trivial as it fits their requirements and expectations, ended up saving hundreds of hours to over 10,000 customers.\n
+            •	Engineered automation workflows using Github Actions and Go-lang for managing GitHub pull requests that directly improved code review efficiency for 70+ engineering teams.\n
+            •	Leveraged Kubernetes ecosystem tools like Helm and ArgoCD to build reproducible infrastructure environments, reducing onboarding time for engineering team and minimizing infrastructure drift.\n
+            •	Built infrastructure scripts for internal developer platforms to streamline deployment and CI/CD process, reducing manual provision time by over 50%.\n
+            •	Collaborated cross-functionally with DevOps and Security teams to integrate role-based access control and compliance checks into GitHub PR pipelines, ensuring enterprise-grade governance at scale.\n
 
             """
         )
